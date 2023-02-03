@@ -358,7 +358,7 @@ svg {
 
 
 
-img{
+.img2{
     height: 300px;
     /* width: 180px; */
     border-radius: 10px;
@@ -367,7 +367,7 @@ img{
     
 }
 
-img:hover{
+.img2:hover{
     animation-play-state: paused;
     /* animation-delay: 0; */
 }
