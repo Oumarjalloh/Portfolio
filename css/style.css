@@ -350,6 +350,12 @@ svg {
 
 /* ================= DEBUT DE MES COMPETENCES ================ */
 
+.text2{
+    color: white;
+    text-align: center;
+    padding: 15% 0% 3% 0%;
+}
+
 .slider{
     
     display: grid;
