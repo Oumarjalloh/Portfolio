@@ -89,6 +89,11 @@
         position: relative;
     }
 
+    .test{
+        text-align: center;
+        padding: 0% 10% 0% 10%;
+    }
+
     .menu-list {
         position: absolute;
         right: 0px;
@@ -334,6 +339,7 @@ svg {
 }
 
 
+
 /* ================= FIN DE SECT1 ================ */
 
 .text{
@@ -398,8 +404,22 @@ svg {
 
 /* ================= FIN DE MES COMPETENCES ================ */
 
+
+/* ================= PROJECTS ================ */
+
 .text3{
     color: white;
     text-align: center;
     padding: 60% 0% 3% 0%;
 }
+
+@media screen and (max-width:768px){
+    .text3{
+        color: white;
+        text-align: center;
+        padding-top: 540%;
+    }
+}
+
+
+/* ================= FIN PROJECTS ================ */
