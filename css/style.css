@@ -348,6 +348,8 @@ svg {
 }
 
 
+/* ================= DEBUT DE MES COMPETENCES ================ */
+
 .slider{
     
     display: grid;
@@ -387,3 +389,5 @@ svg {
     display: flex;
     margin: 20px;
 }
+
+/* ================= FIN DE MES COMPETENCES ================ */
