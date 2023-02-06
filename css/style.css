@@ -36,7 +36,7 @@
 
 .menu-list {
     display: flex;
-    width: 45%;
+    width: 40%;
     justify-content: space-around;
 }
 
@@ -55,7 +55,8 @@
     }
 
         .menu-list a:hover {
-            color: #ccc;
+            color: #d41313;
+            border-radius: 10%;
             transition: 0.2s;
         }
 
@@ -178,7 +179,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body{
-  background: #030321;
+ background-color: #171717;
   font-family: Arial;
 }
 
@@ -199,7 +200,7 @@ svg {
 
 .text-copy {
     fill: none;
-    stroke: white;
+    stroke: rgb(255, 255, 255);
     stroke-dasharray: 6% 29%;
     stroke-width: 5px;
     stroke-dashoffset: 0%;
@@ -207,27 +208,27 @@ svg {
 }
 
 .text-copy:nth-child(1){
-	stroke: #dad6d9;
+	stroke: #ffffff;
 	animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-	stroke: #4e2e3b;
+	stroke: #ffffff;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: #463339;
+	stroke: #ffffff;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #beb0b4;
+	stroke: #ffffff;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: #c2b6a0;
+	stroke: #ffffff;
 	animation-delay: -5s;
 }
 
@@ -377,7 +378,7 @@ svg {
     /* width: 180px; */
     border-radius: 10px;
     transform-style: preserve-3d;
-    animation: rotate 20s linear infinite;
+    animation: rotate 8s linear infinite;
     
 }
 
@@ -410,14 +411,14 @@ svg {
 .text3{
     color: white;
     text-align: center;
-    padding: 60% 0% 3% 0%;
+    padding: 40% 0% 3% 0%;
 }
 
 @media screen and (max-width:768px){
     .text3{
         color: white;
         text-align: center;
-        padding-top: 540%;
+        padding-top: 570%;
     }
 }
 
