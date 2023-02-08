@@ -647,12 +647,24 @@ a {
 }
 
 .sv{
-    display: grid;
+    display: flex;
     gap: 30px;
     justify-content: center;
+    padding: 3% 0% 5% 0%;
+}
+
+a.svg{
+    width: 10%;
+}
+
+footer{
+    background-color: white;
     
 }
 
-.svg{
-    width: 15%;
+.ft{
+    font-size: 170%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
 }
