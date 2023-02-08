@@ -649,9 +649,10 @@ a {
 .sv{
     display: grid;
     gap: 30px;
+    justify-content: center;
     
 }
 
 .svg{
-    width: 5%;
+    width: 15%;
 }
