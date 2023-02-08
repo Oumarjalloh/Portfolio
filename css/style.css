@@ -638,3 +638,20 @@ a {
   }
 
 /* ================= FIN PROJECTS ================ */
+
+
+.text4{
+    color: #27AE60;
+    text-align: center;
+    padding: 10% 0% 3% 0%;
+}
+
+.sv{
+    display: grid;
+    gap: 30px;
+    
+}
+
+.svg{
+    width: 5%;
+}
